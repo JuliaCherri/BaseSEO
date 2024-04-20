@@ -6,9 +6,9 @@
  * @internal 	@modx_category SEO
  */
 
-<title>[*titl*] - [(site_name)]</title>
-<meta name="description" content="[*desc*]">
-[*noIndex*]
+<title>[*meta_title*] - [(site_name)]</title>
+<meta name="description" content="[*meta_description*]">
+[*meta_noindex*]
 <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="image_src" href="[*image-src*]">
