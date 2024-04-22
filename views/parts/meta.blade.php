@@ -3,8 +3,15 @@
 <meta name="description" content="{!! !empty($meta_description) ? $meta_description : $introtext !!}">
 <meta property="og:description" content="{!! !empty($meta_description) ? $meta_description : $introtext !!}">
 {!! $meta_noindex !!}
-<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-<link rel="icon" href="favicon.png" type="image/png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
+
 @if ( !empty($image_src) ) 
     <link rel="image_src" href="{!! $image_src !!}">
     <meta property="og:image" content="{!! $image_src !!}">
