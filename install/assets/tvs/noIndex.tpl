@@ -1,14 +1,14 @@
 ﻿/**
- * noIndex
+ * meta_noindex
  *
  * Индексировать страницу
  *
  * @category        tv
- * @name            noIndex
+ * @name            meta_noindex
  * @internal        @caption Индексировать страницу
- * @internal        @description Meta Robots = noindex, follow
+ * @internal        @description Meta Robots = noindex, nofollow
  * @internal        @input_type checkbox
- * @internal        @input_options Нет==<meta name="robots" content="noindex, follow">
+ * @internal        @input_options Нет==<meta name="robots" content="noindex, nofollow">
  * @internal        @input_default 
  * @internal        @output_widget 
  * @internal        @output_widget_params 
